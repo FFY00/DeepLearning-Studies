@@ -1,3 +1,10 @@
+#       Tensorflow #1 Example
+#   Tensorflow example of Gradient Descent
+#   on a linear equation (y = mx + b)
+#
+#   https://github.com/FFY00/DeepLearning-Studies
+
+
 import tensorflow as tf
 
 m = tf.Variable([.3], dtype=tf.float32)
