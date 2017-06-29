@@ -50,7 +50,6 @@ for i in range(1000):
     sess.run(train, {x: x_set, y: y_set})
     m_value_plt, b_value_plt, loss_plt = sess.run([m, b, loss], {x: x_set, y: y_set})
     ax.scatter(m_value_plt, b_value_plt, loss_plt)
-    ax.plot(m_value_plt, b_value_plt, loss_plt)
     ax2.scatter(m_value_plt, b_value_plt)
     ax3.scatter(m_value_plt, loss_plt)
     ax4.scatter(b_value_plt, loss_plt)
