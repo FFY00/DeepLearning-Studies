@@ -1,7 +1,7 @@
 #       Tensorflow #1 Example
 #   Tensorflow example of Gradient Descent
 #   on a linear equation (y = mx + b) with
-#   a Plot show the values learning curve
+#   a Plot showing the values learning curve
 #
 #   https://github.com/FFY00/DeepLearning-Studies
 
