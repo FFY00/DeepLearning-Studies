@@ -7,6 +7,7 @@
 
 import tensorflow as tf
 import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
 
 m = tf.Variable([.3], dtype=tf.float32)
 b = tf.Variable([-.3], dtype=tf.float32)
