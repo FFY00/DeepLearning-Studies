@@ -1,6 +1,12 @@
+#       Tensorflow #1 Example
+#   Tensorflow example of Gradient Descent
+#   on a linear equation (y = mx + b) with
+#   a Plot show the values learning curve
+#
+#   https://github.com/FFY00/DeepLearning-Studies
+
 import tensorflow as tf
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 
 m = tf.Variable([.3], dtype=tf.float32)
 b = tf.Variable([-.3], dtype=tf.float32)
