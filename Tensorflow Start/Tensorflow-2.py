@@ -8,4 +8,4 @@ b = tf.Variable(tf.zeros([10]))
 
 y = tf.nn.softmax(tf.matmul(x, W) + b)
 
-# WIP... Need to understand the softmax function before finishing
+# WIP... I'm busy
